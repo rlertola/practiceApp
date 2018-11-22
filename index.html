@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="sketchcss.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Russo+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+  <title>Practice-App</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="middleWrapper">
+
+      <header class="header">
+        <h2 id="headerTitle">todos</h2>
+      </header>
+
+      <input class="mainInput" type="text" placeholder="Enter todo">
+
+
+
+      <div class="buttons">
+        <button id="toggleAllButton">Toggle All</button>
+        <button id="showAllButton">All</button>
+        <button id="showActiveButton">Active</button>
+        <button id="showCompletedButton">Completed</button>
+        <button id="clearCompletedButton">Clear Completed</button>
+
+      </div>
+
+      <div class="ulWrapper">
+        <ul>
+
+          <li>
+            <input id="checkbox" type="checkbox">
+            <span id="todoItem" contenteditable="true">todo1</span>
+            <button id="deleteButton">X</button>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+  <script src="appPractice.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  
+}
+
+.middleWrapper {
+  max-width: 1000px;
+  grid-column: 2 / span 1;
+  display: grid;
+  grid-gap: 10px;
+  
+}
+
+#headerTitle {
+  font-size: 100px;
+  text-align: center;
+  margin: 100px 0 0 0;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 100;
+ 
+  
+}
+
+.mainInput {
+  margin: 0;
+  height: 100px;
+  text-indent: 10px;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+ 
+  
+}
+
+.mainInput:focus {
+  outline-color: rgb(250, 2, 126);
+  
+  
+}
+
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(242, 242, 242, 0.986);
+  color: black;
+  font-weight: 900;
+  padding: 0;
+  border-radius: 3px;
+  
+}
+
+button:focus {
+  outline: none;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 40px;
+  grid-gap: 5px;
+  
+}
+
+.ulWrapper {
+  padding: 0 10px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  
+  
+}
+
+
+ul {
+  -webkit-padding-start: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+#todoItem {
+  flex-basis: 80%;
+  
+}
+
+#todoItem:focus {
+  outline-color:rgb(250, 2, 126);
+  
+}
+
+#todoItem:hover {
+  color: rgb(120, 119, 119);
+
+}
+
+#checkbox {
+  background-color: whitesmoke;
+  border: 1px solid rgb(120, 119, 119);
+  flex-basis: 5%; 
+  border-radius: 3px;
+}
+
+#checkbox:checked {
+  background-color: rgb(39, 202, 39);
+}
+
+#checkbox:checked + span {
+  text-decoration: line-through rgb(39, 202, 39);
+  color: lightgray;
+}
+
+#checkbox:focus {
+  outline: none;
+}
+
+input[type=checkbox] {
+  border-radius: 1px;
+  -webkit-appearance: none;  
+}
+
+#deleteButton {
+  flex-basis: 5%;
+  background: none;
+  border: none;
+  color: lightgrey;
+  font-weight: 1000;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+#deleteButton:hover {
+  color: red;
+  
+}
+
+#deleteButton:focus {
+  outline: none;
+}
+
