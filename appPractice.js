@@ -21,9 +21,7 @@ var View = {
     var todosUL = document.querySelector('ul');
 
     todos.forEach(function(todo) {
-
-
-
+      //
     })
 
 
